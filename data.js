@@ -38,7 +38,7 @@ const content = `
 `
 
 const title = `РАПОРТ`
-const sign = `С приветом из Болгарии,<br>бывший солдат ДССТ Борис КИРЬЯНОВ`
+const sign = `С приветом из Болгарии,<br>бывший солдат ДССТ<br>Борис КИРЬЯНОВ`
 
 
 document.querySelector('.tline').innerHTML = title

@@ -43,6 +43,17 @@ const content = `
 
 `
 
+//
+
+const forecast = `
+
+
+
+
+`
+
+//
+
 const title = `РАПОРТ`
 const sign = `Бывший солдат ДССТ<br>Борис КИРЬЯНОВ`
 const ps = `P.S. Ссылка на этот текст тем или иным образом (email, мессенджеры, в том числе и запрещенные вайберы и телеграмы, которыми вы пользуетесь) отправлена представителям финслужбы, командиру (Я.Л.В.), дежурному (t0910@dsst.gov.ua). Проверяйте папку спам, господа.`
@@ -52,3 +63,4 @@ document.querySelector('.tline').innerHTML = title
 document.querySelector('.main').innerHTML = content
 document.querySelector('.sign').innerHTML = sign
 document.querySelector('.ps').innerHTML = ps
+document.querySelector('.forecast').innerHTML = forecast
